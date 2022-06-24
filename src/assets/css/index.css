@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-select-selection-item,.ant-select-item-option-content{
+    @apply flex flex-row justify-start items-center h-[44px] gap-6
+}
+
+.ant-select-selector{
+    @apply !h-[44px]
+}
+
+
+.ant-btn-primary{
+    @apply !p-2 !px-6 !bg-black !cursor-pointer !text-white  !border !border-black !border-solid !h-auto
+}
+.ant-btn-default{
+    @apply !p-2 !px-6 !bg-white !cursor-pointer !text-black !border !border-black !border-solid !h-auto
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+margin: 2px 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background-color: #d1d1d1;
+border-radius: 0.25rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
